@@ -1,5 +1,5 @@
 theme: jekyll-theme-midnight
-name: Data Whispering
+title: Data Whispering
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 encoding: utf-8
