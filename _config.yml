@@ -4,3 +4,5 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 encoding: utf-8
 repository: m00nd00r.github.io
+plugins:
+   - jekyll-feed

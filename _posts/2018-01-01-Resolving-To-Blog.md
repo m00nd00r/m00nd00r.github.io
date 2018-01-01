@@ -11,4 +11,4 @@ word blog. You're welcome.
 
 I started this whole journey with [Andrew Ng's Machine Learning course](https://www.coursera.org/learn/machine-learning) without really knowing anything about it. I was quickly consumed by it. From there I went on to puruse [Coursera's Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) program where I learned all the basics using R and Shiny. And only very recently I completed [Udacity's Machine Learning Engineering](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009) using Python.
 
-I've learned a lot and will lay it all here, along with various other projects and ideas as I go.
+I've learned a lot and will lay it all out here, along with various other projects and ideas as I go.
