@@ -113,6 +113,9 @@ Once you've connected, you now need to optimize the GPU. Run the following code 
 ```
 wget "https://gist.github.com/m00nd00r/d52df1c881b0f294fa8baa98dbcf01cb/archive/977bffb50b3c4f3acaadadc418d7c1b9d1d9b80b.zip" -O temp.zip; unzip -j temp.zip; rm temp.zip; chmod 555 nvidia-setup.sh; ./nvidia-setup.sh
 ```  
+You can review the above script in the [gist](https://gist.github.com/25657aa82f968d5ebe82fd5f33a55bc5.git) I created for it.
+
+<script src="https://gist.github.com/m00nd00r/d52df1c881b0f294fa8baa98dbcf01cb.js"></script>
 
 This will download a script I wrote to execute several nvidia commands to maximize the GPU performance that is hosted in a gist I created for it. It then executes the script. This script runs a timer to clock how fast the nvidia-smi utility runs. You should see output time to be less than 1 second.  
 
@@ -125,6 +128,7 @@ Run the following code in the terminal that is connected to your instance:
 ```
 wget "https://gist.github.com/m00nd00r/25657aa82f968d5ebe82fd5f33a55bc5/archive/86de1b1867c68e089b5647555dcfdb2fec9029e8.zip" -O temp.zip; unzip -j temp.zip; rm temp.zip; chmod 555 jupyter-setup.sh; ./jupyter-setup.sh
 ```
+You can review the above script in the [gist](https://gist.github.com/25657aa82f968d5ebe82fd5f33a55bc5.git) I created for it.
 
 Similar to optimizing the GPU, the above code downloads, unzips and runs a script that will set-up your jupyter config file. When you execute the above line of code in your instance it will prompt you to create a password to login to jupyter. It will then ask you to verify the password. Either enter a password or just press enter if you don't want one. Either way you'll need to enter the same at the Jupyter login page. Then wait for it to execute - don't type anything, it takes a moment.
 
